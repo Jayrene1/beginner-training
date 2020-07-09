@@ -6,22 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <title>To Do</title>
+  <title>Subreddit Viewer</title>
 </head>
 
 <body>
   <header class="flex-center">
-    <h1 class="text-white">To Do - Josh</h1>
+    <h1 class="text-white">Subreddit Viewer - Josh</h1>
   </header>
   <main class="flex-center">
-    <div class="to-do-container">
-      <div class="input-container flex-center">
-        <input type="text" id="to-do-input" />
-        <button id="to-do-button">+</button>
+    <div class="subreddit-container">
+      <div class="search-container flex-center">
+        <input type="text" id="search-input" placeholder="Subreddit Name Here" />
+        <button id="search-button">Search</button>
       </div>
-      <ul id="to-do-list">
-        <li>Test Item 1 <button class="delete-button">-</button></li>
-      </ul>
+      <ul id="results-list"></ul>
     </div>
   </main>
 
