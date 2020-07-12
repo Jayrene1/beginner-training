@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>Simple Calculator</title>
+</head>
+
+<body>
+  <header class="flex-center">
+    <h1 class="text-white">Simple Calculator</h1>
+  </header>
+  <main class="flex-center">
+    <div class="calc-container">
+      <div class="input-container flex-between">
+        <input type="number" value="0" id="input-1" />
+        <select name="operator" id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">x</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" value="0" id="input-2" />
+        <button id="calculate-button" class="flex-center">=</button>
+        <span id="output" class="flex-center"></span>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
